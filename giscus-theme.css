@@ -1,0 +1,59 @@
+/* giscus-theme.css */
+
+/* Tema latar belakang */
+.giscus {
+  color-scheme: dark;
+}
+
+.giscus-frame {
+  background: #141414 !important;
+  color: #e0e0e0 !important;
+  font-family: 'Segoe UI', sans-serif !important;
+}
+
+/* Hilangkan avatar */
+.giscus-frame .giscus-comment-avatar {
+  display: none !important;
+}
+
+/* Hilangkan Reactions (like, etc.) */
+.giscus-frame .giscus-comment-reactions {
+  display: none !important;
+}
+
+/* Penyesuaian layout setelah avatar hilang */
+.giscus-frame .giscus-comment-content {
+  margin-left: 0 !important;
+}
+
+/* Header giscus */
+.giscus-frame .giscus-header {
+  background: #0b0b0b !important;
+  border-bottom: 1px solid #00ffcc !important;
+}
+
+/* Border dan bayangan komentar */
+.giscus-frame .giscus-comment {
+  border: 1px solid #00ffcc !important;
+  border-radius: 12px !important;
+  background: #1a1a1a !important;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+  margin: 10px 0;
+}
+
+/* Warna link */
+.giscus-frame a {
+  color: #00ffcc !important;
+}
+
+/* Input komentar */
+.giscus-frame textarea {
+  background: #0b0b0b !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #00ffcc !important;
+}
+
+/* Hilangkan footer credit kecil (optional) */
+.giscus-frame .giscus-footer {
+  display: none !important;
+}
